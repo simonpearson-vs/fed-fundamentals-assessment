@@ -1,0 +1,50 @@
+header {
+    height: 36px;
+    background: #FFFFFF;
+    opacity: 1;
+    border: 1px solid black;
+}
+
+#header-image {
+    padding-left: 1em;
+    /*height: 50px;*/
+    width: 100px;
+    border-right: 1px solid #898989;
+    float: left;
+}
+
+nav {
+    float: left;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: #111111;
+}
+
+.nav-link-bold {
+    font-weight: bold;
+}
+
+#submenu {
+    float: left;
+    clear: both;
+}
